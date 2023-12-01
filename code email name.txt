@@ -1,0 +1,2 @@
+global user.email "ibrahim5322022@outlook.com"
+global user.name "Ibrahim Ismaila"

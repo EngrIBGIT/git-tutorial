@@ -1,0 +1,17 @@
+SELECT * FROM crime_scene_report;
+
+SELECT * FROM drivers_licence;
+
+SELECT * FROM facebook_event_checkin;
+
+SELECT * FROM get_fit_now_check_in;
+
+SELECT * FROM get_fit_now_member;
+
+SELECT * FROM income;
+
+SELECT * FROM interview;
+
+SELECT * FROM person;
+
+

@@ -1,0 +1,91 @@
+-- creation of a table called 'attendance'
+
+/*
+CREATE TABLE Table_name(   
+   Column_1  datatype constraints, 
+   column_2  datatype constraints, 
+   column_3  datatype constraints, 
+   ...
+   ...
+   ...
+   column_k datatype constraints);
+*/
+
+
+CREATE TABLE attendance (
+            
+			date date, 
+	        student_id varchar,
+	        Location varchar,
+	        number_of_classes_attended int
+); 
+
+
+
+CREATE TABLE parties( 
+    "political party" varchar(200),
+	"number of registered voters" int
+);
+
+
+name varchar(10)
+
+
+
+SELECT "political party", "number of registered voters"
+FROM PARTIES;
+
+
+SELECT DATE,
+     STUDENT_ID,
+	 LOCATION,
+	 NUMBER_OF_CLASSES_ATTENDED
+	 FROM ATTENDANCE; 
+	 
+
+
+select * 
+from parties;
+
+
+select * 
+from attendance;
+
+
+
+
+create table test (
+    scores int check(scores > 10),
+	student_name varchar not null
+)
+
+
+
+/*
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+*/
+
+INSERT INTO attendance
+values ( '14/11/2023',	'WSD 001',	'Abuja',	15),
+       ( '14/11/2023',	'WSD 002',	'Kogi',	23);
+
+
+
+select * 
+from attendance
+
+
+select * 
+from parties
+
+INSERT INTO parties
+values ('NNP', 34000),
+        ('LC', 35000);
+		
+		
+		
+	 
+name varchar()
+
+

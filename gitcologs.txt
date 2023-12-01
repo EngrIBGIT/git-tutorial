@@ -1,0 +1,72 @@
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial-2
+$ cd ~/Desktop/git-tutorial
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote add origin ^[[200~https://github.com/EngrIBGIT/git-tutorial.git~
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote
+origin
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote -v
+origin  https://github.com/EngrIBGIT/git-tutorial.git~ (fetch)
+origin  https://github.com/EngrIBGIT/git-tutorial.git~ (push)
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote remove origin
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote -v
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote add origin ^[[200~
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote add origin
+
+
+git remote -v
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+origin   (fetch)
+origin   (push)
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote remove origin
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote -v
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote add origin https://github.com/EngrIBGIT/git-tutorial.git
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git remote -v
+origin  https://github.com/EngrIBGIT/git-tutorial.git (fetch)
+origin  https://github.com/EngrIBGIT/git-tutorial.git (push)
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git config --global credentials .username "engribgit-test"
+error: key does not contain a section: credentials
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git config --global credential .username "engribgit-test"
+error: key does not contain a section: credential
+
+DELL@ENGRIB MINGW64 ~/Desktop/git-tutorial (master)
+$ git config -- global credential.username "engribgit-test
+> git log --all
+> git log --all --graph
+> git push origin master
+>

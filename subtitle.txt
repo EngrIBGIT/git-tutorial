@@ -1,0 +1,124 @@
+What makes a company good at AI? Perhaps even more importantly, what will it take for your company to become
+great at using AI? I had previously led
+the Google brain team, and Baidu's AI group, which I respectively
+helped Google and Baidu become great AI companies. So, what can you do
+for your company? This is the lesson I
+had learned to watching the rise of the Internet
+that I think will be relevant to how all of us navigate the rise of
+AI. Let's take a look. A lesson we learned from the rise of
+the Internet was that, if you take your
+favorite shopping mall. So, my wife and I
+sometimes shop at Stanford shopping center and you build a website
+for the Shopping mall. Maybe sell things on the website, that by itself does not turn the shopping mall into
+an internet company. In fact, a few years
+ago I was speaking with the CEO of a large retail
+company who said to me, "Hey Andrew, I have a website, I sell things in the website." Amazon has a website, Amazon sells things on
+website is the same thing. But of course, it wasn't, in the shopping mall
+with a website isn't the same thing as a first-class
+internet company. So, what is it that defines
+an internet company if it isn't just
+whether or not you sell things on the website? I think an Internet
+company is a company that does the thing that
+internet lets you do really well. For example, we engage
+and pervasive AB testing. Meaning we routinely throw up two different versions of website and see which one works
+better because we can. So, we learn much faster. Whereas in a traditional
+shopping mall, very difficult to have two shopping malls in
+two parallel universes and you can only
+maybe change things around every quarter
+or every six months. Internet companies sense
+a very short iteration times. You can ship
+a new product every week or maybe even every
+day because you can whereas a shopping mall
+can be redesigned and we are protected only
+every several months. Internet companies also tend to push decision-making down from the CEO to the engineers and to other specialized rules such
+that the product managers. This is in contrast to
+a traditional shopping mall. We can maybe have
+the CEO just decide all the key decisions and then just everyone does
+what the CEO says. It turns out that traditional
+model doesn't work in the internet era because
+only the engineers and other specialized roles like product managers
+know enough about the technology and
+the product and the users to make
+great decisions. So, these are some of the things that internet companies do in order to make sure they
+do the things that the internet doesn't
+do really well. This is a lesson we learned
+from the internet era. How about the AI era? I think that today, you can take any
+company and have it use a few neural networks or few deep learning algorithms. That by itself does not turn the accompany into an AI company. Instead, what makes
+a great AI company, sometimes an AI-first company is, are you doing the things that
+AI lets you do really well? For example, AI
+companies are very good at strategic
+data acquisition. This is why many of the large consumer tech companies
+may have three products that do not monetize
+and it allows them to acquire data that they
+can monetize elsewhere. Serve less strategy teams where we would
+deliberately launch products that do not make any money just for the sake
+of data acquisition. Thinking through how to get data is a key part of
+the great AI companies. AI companies sends
+a unified data warehouses. If you have 50
+different databases or 50 different data
+warehouses under the control of 50
+different Vice-Presidents, then there will be impossible
+for an engineer to get the data into one place
+so that they can connect the dots and
+spot the patterns. So, many great AI companies have preemptively invested
+in bringing the data together into
+single data warehouse to increase the odds that
+the teams can connect the dots. Subject of course to
+privacy guarantees and also to data regulations
+such as GDPR in Europe. AI companies are very good at spotting automation
+opportunities. We're very good at saying, Oh! Let's insert the supervised
+learning algorithm and have an ATP mapping here so that we don't
+have to have people do these tasks instead
+we can automate It. AI companies also have many
+new roles such as the MLE or Machine Learning Engineer
+and new ways of dividing up tasks among
+different members of a team. So, for a company to
+become good at AI means, architecting for company
+to do the things that AI makes it possible
+to do really well. Now, for a company
+that become good at AI does require a process. In fact, 10 years ago, Google and Baidu as
+well as companies like Facebook and Microsoft
+that I was not a part of, we're not great AI companies
+the way they are today. So, how can a company
+become good at AI? It turns out that
+becoming good at AI is not a mysterious
+magical process. Instead, there is
+a systematic process through which many companies, almost any big company
+can become good at AI. This is the five-step AI
+transformation playbook that I recommend to
+companies that want to become effective at using AI. I'll give a brief overview
+of the playbook here and they're going to
+detail in a later week. Step one is to execute pilot
+projects to gain momentum. So, just to a few small projects to get a better sense of
+what AI can or cannot do and get a better sense of what doing an AI project feels like. This you could do
+in house, or you can also do with an outsource team. But eventually, you
+then need to do step two which is the building in house AI team and provide
+broad AI training, not just to the engineers
+but also to the managers, division leaders and executives and how they think about AI. After doing this or
+as you're doing this, you have a better sense
+of what AI is and then is important for
+many companies to develop an AI strategy. Finally, to align internal
+and external communications so that all your stakeholders
+from employees, customers and investors
+are aligned with how your company is navigating
+the rise of AI. AI has created
+tremendous value in the software industry and
+will continue to do so. It will also create tremendous value outside
+the software industry. If you can help your
+company become good at AI, I hope you can play
+a leading role in creating a lot of this value. In this video you saw
+what is it that makes a company a good AI company and also briefly the
+AI transformation playbook which I'll go
+into much greater detail on in a later week
+as a road-map for helping companies
+become great at AI. If you're interested,
+there is also published online an AI transformation
+playbook that goes into these five steps
+in greater detail for you see more of these in
+the later weeks as well. Now, one of the challenges
+of doing AI projects such as the pilot projects in step one is understanding what AI
+can and cannot do. In the next video, I want
+to show you and give you some examples of what
+AI can and cannot do, to help you better
+select projects AI that there may be effective
+for your company. Let's go on to the next video.

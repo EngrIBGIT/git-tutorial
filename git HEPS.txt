@@ -1,0 +1,647 @@
+PS C:\Users\DELL> git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+PS C:\Users\DELL> ls
+
+
+    Directory: C:\Users\DELL
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+d-----        02/11/2023     20:00                .anaconda                    
+d-----        06/11/2023     17:05                .conda                       
+d-----        02/11/2023     20:00                .continuum                   
+d-----        25/11/2023     11:48                .idlerc                      
+d-----        26/11/2023     13:08                .ipynb_checkpoints           
+d-----        02/11/2023     21:05                .ipython                     
+d-----        05/11/2023     07:34                .jupyter                     
+d-----        10/11/2023     07:55                .matplotlib                  
+d-----        17/09/2023     17:30                .ms-ad                       
+d-----        12/11/2023     23:18                .VirtualBox                  
+d-r---        07/12/2019     08:03                3D Objects                   
+d-r---        07/12/2019     08:03                Contacts                     
+d-r---        01/12/2023     05:12                Desktop                      
+d-r---        29/11/2023     15:26                Documents                    
+d-r---        01/12/2023     05:14                Downloads                    
+d-r---        07/12/2019     08:03                Favorites                    
+d-r---        07/12/2019     08:03                Links                        
+d-----        10/09/2023     20:35                Microsoft                    
+d-r---        07/12/2019     08:03                Music                        
+d-r---        09/09/2023     06:08                OneDrive                     
+d-r---        21/09/2023     16:12                Pictures                     
+d-r---        07/12/2019     08:03                Saved Games                  
+d-r---        07/12/2019     08:04                Searches                     
+d-----        04/11/2023     12:52                Tracing                      
+d-r---        12/09/2023     22:44                Videos                       
+d-----        12/11/2023     23:08                VirtualBox VMs               
+-a----        02/11/2023     20:01             25 .condarc                     
+-a----        21/11/2023     08:06           3971 07-Statements Assessment     
+                                                  Test.ipynb                   
+-a----        21/11/2023     09:14           5480 08-Statements Assessment     
+                                                  Test - Solutions.ipynb       
+-a----        20/11/2023     08:43          11673 09-Objects and Data          
+                                                  Structures Assessment        
+                                                  Test.ipynb                   
+-a----        20/11/2023     08:47          18181 10-Objects and Data          
+                                                  Structures Assessment        
+                                                  Test-Solution.ipynb          
+-a----        18/11/2023     20:08         223820 Data mgt anal.ipynb          
+-a----        22/11/2023     13:31             19 djhfbhejfbccs.txt            
+-a----        09/11/2023     06:32          74663 ETL PRACTICE.ipynb           
+-a----        23/11/2023     12:25          16972 FILES.ipynb                  
+-a----        20/11/2023     11:07         842798 House_Price Prac.ipynb       
+-a----        12/02/2019     11:26          54773 House_Price.csv              
+-a----        08/11/2023     23:33             79 install                      
+-a----        28/11/2023     17:33           2652 Lecture_1.ipynb              
+-a----        22/11/2023     13:31             76 myfile.txt                   
+-a----        21/11/2023     08:03          55850 Myfirstnotebook.ipynb        
+-a----        20/11/2023     08:30             14 my_newfile.txt               
+-a----        22/11/2023     13:31             59 my_new_file.txt              
+-a----        25/11/2023     13:17           2227 Nigeria economy kpis.csv     
+-a----        06/11/2023     08:25          37429 Numbers.ipynb                
+-a----        28/11/2023     15:18          90610 pd dataframe to              
+                                                  pgadmin4.ipynb               
+-a----        25/11/2023     12:06            203 sales_data-1.csv             
+-a----        23/11/2023     06:50          78041 Simple ETL Pipeline.ipynb    
+-a----        03/11/2023     23:09          38633 SQL PRACT 1.csv              
+-a----        03/11/2023     23:08          44270 SQL PRACT.xlsx               
+-a----        06/11/2023     13:37          42451 Uden Learn.ipynb             
+-a----        23/11/2023     12:12           2969 Untitled.ipynb               
+-a----        06/11/2023     17:26           1365 Untitled1.ipynb              
+-a----        13/11/2023     21:54          78099 Untitled2.ipynb              
+-a----        25/11/2023     13:11          12140 Untitled3.ipynb              
+-a----        25/11/2023     13:27           7741 Untitled4.ipynb              
+-a----        26/11/2023     13:10            589 Untitled5.ipynb              
+
+
+
+PS C:\Users\DELL> cd C:\Users\DELL\Desktop\git-tutorial
+
+PS C:\Users\DELL\Desktop\git-tutorial> ls
+
+
+    Directory: C:\Users\DELL\Desktop\git-tutorial
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----        25/11/2023     22:17            268 1. MY QUESS.txt              
+-a----        01/12/2023     05:28            111 codes.txt                    
+-a----        28/11/2023     21:48           3402 Lesson 28 Nov 23.sql         
+
+
+
+PS C:\Users\DELL\Desktop\git-tutorial> git init
+Initialized empty Git repository in C:/Users/DELL/Desktop/git-tutorial/.git/
+
+PS C:\Users\DELL\Desktop\git-tutorial> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	1. MY QUESS.txt
+	Lesson 28 Nov 23.sql
+	codes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add . 
+git : warning: in the working copy of 'Lesson 28 Nov 23.sql', LF will be 
+replaced by CRLF the next time Git touches it
+At line:1 char:1
++ git add .
++ ~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   1. MY QUESS.txt
+	new file:   Lesson 28 Nov 23.sql
+	new file:   codes.txt
+
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 1"
+git : Author identity unknown
+At line:1 char:1
++ git commit -m "Version 1"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Author identity unknown:String) [] 
+   , RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'DELL@ENGRIB.(none)')
+
+PS C:\Users\DELL\Desktop\git-tutorial> git config --global user.email "ibrahim5322022@outlook.com"
+
+PS C:\Users\DELL\Desktop\git-tutorial> git config --global user.name "Ibrahim Ismaila"
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 1"
+[master (root-commit) e908405] Version 1
+ 3 files changed, 169 insertions(+)
+ create mode 100644 1. MY QUESS.txt
+ create mode 100644 Lesson 28 Nov 23.sql
+ create mode 100644 codes.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git config --global user.name "Ibrahim Ismaila"
+
+PS C:\Users\DELL\Desktop\git-tutorial> git config --global user.email "ibrahim5322022@outlook.com"
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit e90840578c11a667ddfb4ed991d3750be1b7a7bd
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add.
+git : git: 'add.' is not a git command. See 'git --help'.
+At line:1 char:1
++ git add.
++ ~~~~~~~~
+    + CategoryInfo          : NotSpecified: (git: 'add.' is ...e 'git --help'.: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The most similar command is
+	add
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .
+git : warning: in the working copy of 'Class Two SQL Script', LF will be 
+replaced by CRLF the next time Git touches it
+At line:1 char:1
++ git add .
++ ~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 1" --amend
+[master 0daa420] Version 1
+ Date: Fri Dec 1 05:42:16 2023 +0100
+ 4 files changed, 260 insertions(+)
+ create mode 100644 1. MY QUESS.txt
+ create mode 100644 Class Two SQL Script
+ create mode 100644 Lesson 28 Nov 23.sql
+ create mode 100644 codes.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit 0daa42065a5fc75b1abf23c1a6b8ee98fea45a69
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git status
+On branch master
+nothing to commit, working tree clean
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .
+
+PS C:\Users\DELL\Desktop\git-tutorial> git_output
+git_output : The term 'git_output' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git_output
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git_output:String) [], CommandNo 
+   tFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> cat git_output
+cat : Cannot find path 'C:\Users\DELL\Desktop\git-tutorial\git_output' because 
+it does not exist.
+At line:1 char:1
++ cat git_output
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\DELL\D...rial\git_outpu 
+   t:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetCon 
+   tentCommand
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git reset .
+Unstaged changes after reset:
+M	1. MY QUESS.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .                                                                                                                                                                                                                                                               
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 2" 
+[master b36eeb5] Version 2
+ 2 files changed, 4 insertions(+)
+ create mode 100644 code email name.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .
+git : warning: in the working copy of 'subtitle.txt', LF will be replaced by 
+CRLF the next time Git touches it
+At line:1 char:1
++ git add .
++ ~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 3"
+[master 26b131c] Version 3
+ 1 file changed, 124 insertions(+)
+ create mode 100644 subtitle.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:41:55 2023 +0100
+
+    Version 3
+
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git checkout b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+git : Note: switching to 'b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7'.
+At line:1 char:1
++ git checkout b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Note: switching...0b2c39e6ff6d7'.: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+  git switch -c <new-branch-name>
+Or undo this operation with:
+  git switch -
+Turn off this advice by setting config variable advice.detachedHead to false
+HEAD is now at b36eeb5 Version 2
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git checkout b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+git : HEAD is now at b36eeb5 Version 2
+At line:1 char:1
++ git checkout b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (HEAD is now at b36eeb5 Version 2:S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all
+commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:41:55 2023 +0100
+
+    Version 3
+
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git checkout 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+git : Previous HEAD position was b36eeb5 Version 2
+At line:1 char:1
++ git checkout 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Previous HEAD p...6eeb5 Version 2: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+HEAD is now at 294b6e2 Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all
+commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:41:55 2023 +0100
+
+    Version 3
+
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> q
+q : The term 'q' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ q
++ ~
+    + CategoryInfo          : ObjectNotFound: (q:String) [], CommandNotFoundExc 
+   eption
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 1 update"
+HEAD detached at 294b6e2
+nothing to commit, working tree clean
+
+PS C:\Users\DELL\Desktop\git-tutorial>  git commit -m "Version 1 update"
+HEAD detached at 294b6e2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	GMT20231007-100112_RecordingnewChat.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PS C:\Users\DELL\Desktop\git-tutorial> git add .
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Version 1 update"
+[detached HEAD 44dda6f] Version 1 update
+ 1 file changed, 438 insertions(+)
+ create mode 100644 GMT20231007-100112_RecordingnewChat.txt
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all
+commit 44dda6fe307e35dfc6c5261164ccc533dd734b0e
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:51:47 2023 +0100
+
+    Version 1 update
+
+commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:41:55 2023 +0100
+
+    Version 3
+
+commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 06:39:44 2023 +0100
+
+    Version 2
+
+commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+Date:   Fri Dec 1 05:42:16 2023 +0100
+
+    Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all --graph
+* commit 44dda6fe307e35dfc6c5261164ccc533dd734b0e
+| Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| Date:   Fri Dec 1 06:51:47 2023 +0100
+| 
+|     Version 1 update
+|   
+| * commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+| | Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| | Date:   Fri Dec 1 06:41:55 2023 +0100
+| | 
+| |     Version 3
+| | 
+| * commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+|/  Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+|   Date:   Fri Dec 1 06:39:44 2023 +0100
+|   
+|       Version 2
+| 
+* commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+  Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+  Date:   Fri Dec 1 05:42:16 2023 +0100
+  
+      Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git checkout master
+git : Warning: you are leaving 1 commit behind, not connected to
+At line:1 char:1
++ git checkout master
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: you ar...ot connected to: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+any of your branches:
+  44dda6f Version 1 update
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+ git branch <new-branch-name> 44dda6f
+Switched to branch 'master'
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all --graph
+* commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+| Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| Date:   Fri Dec 1 06:41:55 2023 +0100
+| 
+|     Version 3
+| 
+* commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+| Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| Date:   Fri Dec 1 06:39:44 2023 +0100
+| 
+|     Version 2
+| 
+* commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+  Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+  Date:   Fri Dec 1 05:42:16 2023 +0100
+  
+      Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git checkout 294b6e2cc91bd12cbfeac0c224e867e9aa663d05 .
+git : Updated 1 path from 0acce1f
+At line:1 char:1
++ git checkout 294b6e2cc91bd12cbfeac0c224e867e9aa663d05 .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Updated 1 path from 0acce1f:String 
+   ) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+PS C:\Users\DELL\Desktop\git-tutorial> git log --all --graph
+* commit 26b131cd7d33c82e998d6ca79ae9adddb5d549c8
+| Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| Date:   Fri Dec 1 06:41:55 2023 +0100
+| 
+|     Version 3
+| 
+* commit b36eeb57ecf5466b5ce87cfad0a0b2c39e6ff6d7
+| Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+| Date:   Fri Dec 1 06:39:44 2023 +0100
+| 
+|     Version 2
+| 
+* commit 294b6e2cc91bd12cbfeac0c224e867e9aa663d05
+  Author: Ibrahim Ismaila <ibrahim5322022@outlook.com>
+  Date:   Fri Dec 1 05:42:16 2023 +0100
+  
+      Version 1
+
+PS C:\Users\DELL\Desktop\git-tutorial> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   1. MY QUESS.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	gitcodess.txt
+	learnscodesgits.txt
+
+
+PS C:\Users\DELL\Desktop\git-tutorial> git commit -m "Veersion 1 restored"
+[master b161860] Veersion 1 restored
+ 1 file changed, 2 deletions(-)
+
+PS C:\Users\DELL\Desktop\git-tutorial> git s
+git : git: 's' is not a git command. See 'git --help'.
+At line:1 char:1
++ git s
++ ~~~~~
+    + CategoryInfo          : NotSpecified: (git: 's' is not...e 'git --help'.: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The most similar commands are
+	show
+	status
+	switch
+	lfs
+	svn
+
+PS C:\Users\DELL\Desktop\git-tutorial> git congif --global alias.s"status"
+git : git: 'congif' is not a git command. See 'git --help'.
+At line:1 char:1
++ git congif --global alias.s"status"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (git: 'congif' i...e 'git --help'.: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+The most similar command is
+	config
+
+PS C:\Users\DELL\Desktop\git-tutorial> git config --global alias.s"status"
+
+PS C:\Users\DELL\Desktop\git-tutorial> git s
+git : git: 's' is not a git command. See 'git --help'.
+At line:1 char:1
++ git s
++ ~~~~~
+    + CategoryInfo          : NotSpecified: (git: 's' is not...e 'git --help'.: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+
+PS C:\Users\DELL\Desktop\git-tutorial> 

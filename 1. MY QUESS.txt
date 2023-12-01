@@ -14,6 +14,4 @@ SELECT * FROM interview;
 
 SELECT * FROM person;
 
-SELECT *
 
-SELECT *(count) FROM 
